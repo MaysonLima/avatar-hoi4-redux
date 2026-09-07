@@ -4,7 +4,6 @@ This file mirrors the current development backlog. GitHub Issues are the source 
 
 ## Backlog — P0: Make it boot
 
-- [ ] #1 Port defines to HOI4 1.19
 - [ ] #2 Port units and interface to HOI4 1.19
 - [ ] #3 Clean and modernize descriptor.mod
 
@@ -49,7 +48,13 @@ Future Redux systems to break into cards after modernization:
 
 ## In progress
 
-_None yet. Start with P0 after the original 1.0 source is imported into `upstream-1.0` and copied into `modernization`._
+- [ ] #1 Port defines to HOI4 1.19
+  - Preserve original 1.0 files on `upstream-1.0`.
+  - Diff Avatar 1.14 defines against current vanilla.
+  - Classify intentional overrides vs copied vanilla residue vs obsolete values.
+  - Replace wholesale define copies with minimal Redux override files.
+  - Validate menu → 99 AG start → several in-game days and inspect logs.
+  - Do **not** mix campaign pacing changes into this card; pacing stays in #14.
 
 ## Review / Test
 
