@@ -1,0 +1,24 @@
+# Hearts of Iron IV / Paradox local files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local development / launcher artifacts
+.mod/
+*.bak
+*.backup
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Archives / local releases
+*.zip
+*.7z
+*.rar
+
+# Generated or local-only tooling output
+build/
+dist/
+.cache/
